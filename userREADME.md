@@ -22,7 +22,8 @@ Install by....
 Use by...
 
 ## License 
-    This application is covered under the Apache License 2.0.  [Link]https://www.apache.org/licenses/LICENSE-2.0
+  This application is covered under the Apache License 2.0.  
+  [Link] https://www.apache.org/licenses/LICENSE-2.0
 
 ## Contributing
 You can contribute by...
