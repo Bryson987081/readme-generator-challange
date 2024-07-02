@@ -5,23 +5,22 @@
 Description text
 
 ## Table of Contents
-- [Installation](#installation)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- Installation
+- Usage
+- License
+- Contributing
+- Tests
+- Questions
 
 ## Installation
 installation
-
+## Usage
+usage
 ## License
 license
-
 ## Contributing
 contribution
-
-## Tests
+## Test
 test
-
 ## Questions
 questions

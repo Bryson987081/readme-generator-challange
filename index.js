@@ -23,6 +23,12 @@ const questions = [
             },
             {
                 type: "input",
+                name: "usage",
+                message: "Enter usage",
+                default: "usage",
+            },
+            {
+                type: "input",
                 name: "license",
                 message: "Enter license",
                 default: "license",
@@ -48,7 +54,7 @@ const questions = [
         ];
 
         function promtUser() {
-            return inquirer.promt(questions);
+            return inquirer.prompt(questions);
         }
 
 // TODO: Create a function to write README file
@@ -88,10 +94,13 @@ ${answers.quest}
 }
 
 // TODO: Create a function to initialize app
-function init(answers) {`
-
-`;
+function init() {
+    promtUser()
+    .then((answers) => {
+        const readmeContent = buildReadme(answers);
+        writeToFile('userREADME.md', readmeContent);
+    })
 }
 
 // Function call to initialize app
-//init();
+init();
