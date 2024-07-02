@@ -7,37 +7,37 @@ const questions = [
                 type: "input",
                 name: "title",
                 message: "Enter title",
-                default: "README Title",
+                default: "Fun Title",
             },
             {
                 type: "input",
                 name: "description",
                 message: "Enter description",
-                default: "Description text",
+                default: "Hello, this is a description to my readme",
             },
             {
                 type: "input",
                 name: "installation",
                 message: "Enter installation methods",
-                default: "installation",
+                default: "Install by....",
             },
             {
                 type: "input",
                 name: "usage",
                 message: "Enter usage",
-                default: "usage",
+                default: "Use by...",
             },
             {
-                type: "input",
+                type: "list",
                 name: "license",
                 message: "Enter license",
-                default: "license",
+                choices: ["Apache License 2.0", "MIT License", "Eclipse Publlic License 2.0", "Mozilla Public License 2.0"]
             },
             {
                 type: "input",
                 name: "contributing",
                 message: "Enter contribution",
-                default: "contribution",
+                default: "You can contribute by...",
             },
             {
                 type: "input",
@@ -47,9 +47,15 @@ const questions = [
             },
             {
                 type: "input",
-                name: "quest",
-                message: "Enter questions",
-                default: "questions",
+                name: "email",
+                message: "Enter email",
+                default: "Email@example.com",
+            },
+            {
+                type: "input",
+                name: "gitHub",
+                message: "Enter GitHub",
+                default: "https://github.com/user",
             },
         ];
 
@@ -67,29 +73,38 @@ function buildReadme(answers) {
     return `
 # ${answers.title}
 
+//licenseBadge
+
 ## Description
 ${answers.description}
 
 ## Table of Contents
-- Installation
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+
+- [Installation](#installation)
+- [Usage Information](#usage)
+- [License](#license)
+- [Contribution Guidelines](#contribution)
+- [Test Instructions](#test)
+- [Questions](#questions)
 
 ## Installation
 ${answers.installation}
+
 ## Usage
 ${answers.usage}
+
 ## License
 ${answers.license}
+
 ## Contributing
 ${answers.contributing}
+
 ## Test
 ${answers.test}
+
 ## Questions
-${answers.quest}
+- ${answers.email}
+- ${answers.gitHub}
 `;
 }
 
