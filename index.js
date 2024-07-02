@@ -45,10 +45,20 @@ const questions = [
                 message: "Enter questions",
                 default: "questions",
             },
-]
+        ];
 
-function generateReadme(answers) {
-`
+        function promtUser() {
+            return inquirer.promt(questions);
+        }
+
+// TODO: Create a function to write README file
+function writeToFile(fileName ,data) {
+    fs.writeFileSync(fileName, data)
+    console.log('Success!');
+}
+
+function buildReadme(answers) {
+    return `
 # ${answers.title}
 
 ## Description
@@ -62,29 +72,26 @@ ${answers.description}
 - Tests
 - Questions
 
-# Installation
+## Installation
 ${answers.installation}
-# Usage
+## Usage
 ${answers.usage}
-# License
+## License
 ${answers.license}
-# Contributing
+## Contributing
 ${answers.contributing}
-# Test
+## Test
 ${answers.test}
-# Questions
+## Questions
 ${answers.quest}
 `;
 }
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFileSync(fileName, data, 'utf8'
-)}
-
 // TODO: Create a function to initialize app
-function init() {
+function init(answers) {`
+
+`;
 }
 
 // Function call to initialize app
-init();
+//init();
