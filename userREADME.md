@@ -1,7 +1,7 @@
 
 # Fun Title
 
-[![License](https://img.shields.io/badge/License-Apache-blue.svg)]
+[![License](https://img.shields.io/badge/License-Eclipse-purple.svg)]
 
 ## Description
 Hello, this is a description to my readme
@@ -22,8 +22,8 @@ Install by....
 Use by...
 
 ## License 
-  This application is covered under the Apache License 2.0.  
-  [Link] https://www.apache.org/licenses/LICENSE-2.0
+  This application is covered under the Eclipse Publlic License 2.0.  
+  [Link] https://www.eclipse.org/legal/epl-2.0/
 
 ## Contributing
 You can contribute by...
