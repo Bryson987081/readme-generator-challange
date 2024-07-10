@@ -31,6 +31,6 @@ Then the file is then generated and displays all the user inputs, badges, and li
 
 ## Links
 
-[Video](https://drive.google.com/file/d/1AnEjtWoy1FjXAe0imVzd4VKNVadVE6uk/view?usp=sharing)
+[Video](https://drive.google.com/file/d/1e55bTBEjcnHoen-6CGJfQ8DploMoTrhG/view?usp=sharing)
 
 [GitHub Repo](https://github.com/Bryson987081/portfolio-challange)
