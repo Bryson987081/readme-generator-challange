@@ -33,4 +33,4 @@ Then the file is then generated and displays all the user inputs, badges, and li
 
 [Video](https://drive.google.com/file/d/1e55bTBEjcnHoen-6CGJfQ8DploMoTrhG/view?usp=sharing)
 
-[GitHub Repo](https://github.com/Bryson987081/portfolio-challange)
+[GitHub Repo](https://github.com/Bryson987081/readme-generator-challange)
